@@ -1,0 +1,71 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Hugging Face / ML caches
+# =========================
+.cache/
+huggingface/
+hf_cache/
+transformers_cache/
+
+# =========================
+# Datasets
+# =========================
+data/fakeddit/
+data/raw/
+data/images/
+news_clippings/
+
+objective2_ooc/data/raw/
+objective2_ooc/data/merged_balanced/
+
+# =========================
+# Downloaded datasets/images
+# =========================
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# =========================
+# Logs / temporary files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
